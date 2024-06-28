@@ -12,7 +12,7 @@ const option = {
         "X-Api-Key": apikey,
     },
 }; // HTTP request options, including API key in headers
-const apiURL = "https://api.api-ninjas.com/v1/dadjokes?limit=1"; // API endpoint
+const apiURL = "https://api.api-ninjas.com/v1/dadjokes"; // API endpoint
 
 async function getjoke(){
     try {
